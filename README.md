@@ -25,8 +25,8 @@ Run `python -m unittest` in the project root after implementing unit tests.
 
 ## Output
 Check the output file named "report.txt" which has the following fields or column names
-a. Type --> Identifies each record by type to filter the events by Warning or Error Job/Task. 
-b. ProcessID --> refers to the  Job Process ID number which took longer to run. 
-c. Job Desciption --> refers to Job description task. 
-d. Duration --> Identifies the  Job Process ID which took longer than 5 minutes  or 10 minutes. 
+1. Type --> Identifies each record by type to filter the events by Warning or Error Job/Task. 
+2. ProcessID --> refers to the  Job Process ID number which took longer to run. 
+3. Job Desciption --> refers to Job description task. 
+4. Duration --> Identifies the  Job Process ID which took longer than 5 minutes  or 10 minutes. 
 

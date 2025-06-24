@@ -1,10 +1,10 @@
 # LogMonitoringApp
-Log Monitoring Application which read log file with format "logs 9.log"
+Log Monitoring Application which read log file with format "logs.log"
 
 # Log Monitoring Application
 
 ## Overview
-A Python application to monitor log files, track job durations, and alert on thresholds.
+A Python application to monitor log files, track job durations, and creates an outuput file with processid, job description and job  or task taking more than than 5 minutes and 10 minutes duration.
 
 ## Requirements
 - Python 3.12.8 and above 
@@ -13,8 +13,8 @@ A Python application to monitor log files, track job durations, and alert on thr
 
 ## Usage
 1. Clone the  public github repository named - https://github.com/ganeshssac/LogMonitoringApp/ 
-2. Ensure `logs 9.log` is in the root directory. 
-3. If you using a different log file name (other than 'logs 9.log' file) - ensure you update the readLogFile.py - with correct log file name. Update the  correct log file name  i.e. line number 6 on the readLogFile.py 
+2. Ensure `logs.log` is in the soruce  code directory or root directory. 
+3. If you using a different log file name (other than 'logs.log' file) - ensure you update the readLogFile.py - with correct log file name. Update the  correct log file name  i.e. line number 7 on the readLogFile.py 
 4. Run Python command `python3 readLogFile.py` on the client machine or server or laptop. 
 5. The output file named - "report.txt" will be created when you execute  the python command `python3 readLogFile.py`. 
 6. Please note, the file path or directory path - where the python command was executed. The output file "report.txt" will be saved or stored within the same directory path. 

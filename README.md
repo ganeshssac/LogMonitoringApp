@@ -58,7 +58,7 @@ Setup
 ----------------------------------------------------------------------
 
 
-Create a file named testlogs.log in the same directory as the test script and add the following sample log data:
+**Create a file named testlogs.log in the same directory as the test script and add the following sample log data:
 ----------------------------------------------------------------------
 12:34:56,job1,START,123
 12:35:56,job1,END,123
@@ -67,7 +67,7 @@ Create a file named testlogs.log in the same directory as the test script and ad
 12:42:56,job3,START,789
 12:52:56,job3,END,789
 ----------------------------------------------------------------------
-Ensure that the readLogFile.py module, which contains the parse_log_file function, is in the same directory as the test script.
+Ensure that the readLogFile.py module, which contains the parse_log_file function, is in the same directory as the test script.**
 ----------------------------------------------------------------------
 Running the Tests
 ----------------------------------------------------------------------

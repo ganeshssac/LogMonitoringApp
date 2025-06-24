@@ -47,20 +47,36 @@ Test Case Description
 The test_parse_log_file method performs the following actions:
 
 Calls the parse_log_file function with the './testlogs.log' file path.
+
 Checks if the report.txt file was created as a result of the log file processing.
+
 Reads the contents of the report.txt file and verifies that the contents match the expected output.
+
 Checks if the 'Warning: No END event found' message was not printed in the log file.
+
 Setup
+----------------------------------------------------------------------
+
 Create a file named testlogs.log in the same directory as the test script and add the following sample log data:
+
 ----------------------------------------------------------------------
+
 12:34:56,job1,START,123
+
 12:35:56,job1,END,123
+
 12:36:56,job2,START,456
+
 12:41:56,job2,END,456
+
 12:42:56,job3,START,789
+
 12:52:56,job3,END,789
+
 ----------------------------------------------------------------------
-Ensure that the readLogFile.py module, which contains the parse_log_file function, is in the same directory as the test script.
+Ensure that the readLogFile.py module, which contains the parse_log_file function, is in the same directory as the test script
+
+
 ----------------------------------------------------------------------
 Running the Tests
 ----------------------------------------------------------------------

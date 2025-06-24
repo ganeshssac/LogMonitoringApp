@@ -47,10 +47,17 @@ Test Case Description
 The test_parse_log_file method performs the following actions:
 
 Calls the parse_log_file function with the './testlogs.log' file path.
+
 Checks if the report.txt file was created as a result of the log file processing.
+
 Reads the contents of the report.txt file and verifies that the contents match the expected output.
+
 Checks if the 'Warning: No END event found' message was not printed in the log file.
+
 Setup
+----------------------------------------------------------------------
+
+
 Create a file named testlogs.log in the same directory as the test script and add the following sample log data:
 ----------------------------------------------------------------------
 12:34:56,job1,START,123

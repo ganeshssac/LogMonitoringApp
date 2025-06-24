@@ -9,7 +9,7 @@ A Python application to monitor log files, track job durations, and creates an o
 ## Requirements
 - Python 3.12.8 and above 
 - Dependency - Install Python3.12.8 above on the client or server - where this code will be run or deployed. 
-- the source script is stored on the SourceScript directory on this repo and it continas a file named - readLogFil.py and it has a function named "parse_log_file" - which contains the core logic to read the logs.log file and creates an output file named "report.txt" on the same directory. 
+- the source script is stored on the SourceScript directory on this repo and it continas a file named - readLogFile.py and it has a function named "parse_log_file" - which contains the core logic to read the logs.log file and creates an output file named "report.txt" on the same directory. 
 
 
 ## Usage
